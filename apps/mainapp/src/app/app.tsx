@@ -2,6 +2,10 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
+import { mainappStore } from '@presetts/mainapp-store';
+
+console.log(mainappStore);
+
 export function App() {
   return (
     <div>
